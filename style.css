@@ -1,4 +1,52 @@
 h1 {
     display: flex;
     justify-content: center;
+    font-family: "Arial Black", sans-serif;
+    font-size: 24px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-family: "Arial Black", sans-serif;
+    font-size: 24px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+.data {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: "Courier New", Courier, monospace; /* Good for logs */
+    font-size: 16px;
+}
+
+.data-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 90%;
+}
+
+.text {
+    text-align: center;
+    font-family: "Sans Serif";
+    font-size: 16px;
+}
+
+.centeredText {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 25%;
+    font-family: "Sans Serif";
+    font-size: 16px;
 }

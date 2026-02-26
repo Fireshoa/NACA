@@ -1,0 +1,16 @@
+{
+    "nickname": "Something",
+    "classification": "AA-0",
+    "description": "This is a test document. Not a real anomaly",
+    "containment": "It literally does not exist. How would we contain something that doesnt exist?",
+    "addendums": [
+        {
+            "text": "\"This is an addendum\" - Dr. Person",
+            "type": "LOG"
+        },
+        {
+            "text": "\"This is a second addendum\" - Dr. Other Person",
+            "type": "LOG"
+        }
+    ]
+}

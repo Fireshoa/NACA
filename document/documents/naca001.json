@@ -1,0 +1,20 @@
+{
+    "nickname": "The Cell",
+    "classification": "BA-3",
+    "description": "A slime that duplicates every 5 minutes if observed. It has been seen to understand human emotions and attempts to comfort a human feeling sad or angry.",
+    "containment": "The slime is placed in a fully sealed container, with various toys and play items to keep it happy",
+    "addendums": [
+        {
+            "text": "\"The object consistently duplicates after five minutes, but only if it's observed. Further research is required\" - Dr Dover",
+            "type": "LOG"
+        },
+        {
+            "text": "\"After an argument with management, I was pissed and came to 001 to do my job, and it seemed to recognize my emotion. It moved over to me and attempted to comfort me? Unsure.\" - Dr Jason",
+            "type": "LOG"
+        },
+        {
+            "text": "\"To our knowledge, it does not die naturally. Only dies when melted or blown up. Guns and other weapons do not work, and will bounce off.\" - Dr Dover",
+            "type": "LOG"
+        }
+    ]
+}
