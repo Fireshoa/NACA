@@ -1,8 +1,9 @@
 {
-    "nickname": "Something",
+    "nickname": "Testing",
     "classification": "AA-0",
-    "description": "This is a test document. Not a real anomaly",
-    "containment": "It literally does not exist. How would we contain something that doesnt exist?",
+    "description": "This document is used to test if new features on the website work. Please ignore it",
+    "containment": "containment",
+    "old": true,
     "addendums": [
         {
             "text": "\"This is an addendum\" - Dr. Person",

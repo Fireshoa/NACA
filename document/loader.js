@@ -1,9 +1,10 @@
 function resetUI(message = "Nickname, NACA-id") {
-    document.getElementById("name").innerText = message;
-    document.getElementById("class").innerText = "[CLASSIFICATION]:";
-    document.getElementById("description").innerText = "[DESCRIPTION]:\n";
-    document.getElementById("containment").innerText = "[CONTAINMENT PROCEDURE]:\n";
-    document.getElementById("addendums").innerText = "\n[ADDENDUMS]:\n";
+    document.getElementById("name").innerText = message
+    document.getElementById("warning").innerText = ""
+    document.getElementById("class").innerText = "[CLASSIFICATION]:"
+    document.getElementById("description").innerText = "[DESCRIPTION]:\n"
+    document.getElementById("containment").innerText = "[CONTAINMENT PROCEDURE]:\n"
+    document.getElementById("addendums").innerText = "\n[ADDENDUMS]:\n"
 }
 
 resetUI()
@@ -27,6 +28,12 @@ async function setNaca(n) {
     } else {
         console.log("Fetched:\n", JSON.stringify(naca, null, 4))
         document.getElementById("name").innerText = naca.nickname + ", NACA-" + n
+        if (naca.unfinished) {
+            document.getElementById("warning").innerText = "ATTENTION: THIS FILE IS UNFINISHED. IT MAY CONTAIN INACCURATE INFORMATION."
+        }
+        if (naca.old) {
+            document.getElementById("warning").innerText = "ATTENTION: THIS FILE IS NOT RECIEVING UPDATES. IT MAY CONTAIN INACCURATE OR OUTDATED INFORMATION."
+        }
         document.getElementById("class").innerText = "[CLASSIFICATION]: " + naca.classification
         document.getElementById("description").innerText = "[DESCRIPTION]:\n" + naca.description
         document.getElementById("containment").innerText = "[CONTAINMENT PROCEDURE]:\n" + naca.containment
