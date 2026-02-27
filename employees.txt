@@ -9,8 +9,8 @@ Dr. Ben Dover
 Dr. Zander Floeser
 Dr. Anna Hickens
 Dr. Brayen Backus
-Dr. Richard Lindsay
 Dr. Kaylee Vance
+Dr. Kelly Marrufo
 
 Guards
 Jonathan Hickens
@@ -18,4 +18,5 @@ Carter Fletch
 Bobby Vance
 
 Other
-Aaron Rohrbach (Janitor)
+Aaron Rohrbach (Janitor/Dolphin)
+Richard Lindsay (Programmer)

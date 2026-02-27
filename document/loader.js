@@ -1,5 +1,6 @@
 function resetUI(message = "Nickname, NACA-id") {
     document.getElementById("name").innerText = message
+    document.getElementById("author").innerText = ""
     document.getElementById("warning").innerText = ""
     document.getElementById("class").innerText = "[CLASSIFICATION]:"
     document.getElementById("description").innerText = "[DESCRIPTION]:\n"
@@ -27,12 +28,23 @@ async function setNaca(n) {
         resetUI("Failed to fetch document for NACA-" + n)
     } else {
         console.log("Fetched:\n", JSON.stringify(naca, null, 4))
-        document.getElementById("name").innerText = naca.nickname + ", NACA-" + n
+        document.getElementById("name").innerText = naca.nickname + ", NACA-" + n.split("/")[n.split("/").length-1]
         if (naca.unfinished) {
             document.getElementById("warning").innerText = "ATTENTION: THIS FILE IS UNFINISHED. IT MAY CONTAIN INACCURATE INFORMATION."
         }
         if (naca.old) {
             document.getElementById("warning").innerText = "ATTENTION: THIS FILE IS NOT RECIEVING UPDATES. IT MAY CONTAIN INACCURATE OR OUTDATED INFORMATION."
+        }
+        if (naca.fanmade) {
+            document.getElementById("author").innerText = "Anomaly made by: " + naca.fanauthor
+            if (naca.unfinished) {
+                document.getElementById("warning").innerText = "This file is fanmade. Nothing in this file is true in the NACA lore\nATTENTION: THIS FILE IS UNFINISHED. IT MAY CONTAIN INACCURATE INFORMATION."
+            }
+            else if (naca.old) {
+                document.getElementById("warning").innerText = "This file is fanmade. Nothing in this file is true in the NACA lore\nATTENTION: THIS FILE IS UNFINISHED. IT MAY CONTAIN INACCURATE INFORMATION."
+            } else {
+                document.getElementById("warning").innerText = "This file is fanmade. Nothing in this file is true in the NACA lore"
+            }
         }
         document.getElementById("class").innerText = "[CLASSIFICATION]: " + naca.classification
         document.getElementById("description").innerText = "[DESCRIPTION]:\n" + naca.description
