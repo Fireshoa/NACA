@@ -2,7 +2,19 @@
     "nickname": "The Thickener",
     "classification": "AB-0",
     "description": "002 is an object with a very inconsistent physical form. The only signature identifier about it is the symbol that is always on it, no matter what its physical form. This object thickens reality by an unknown amount. Dr. Floeser gives estimates of about 1-2, but he might be a bit insane. So we might want to ignore that estimate.",
-    "containment": "",
-    "unfinished": true,
-    "addendums": []
+    "containment": "Contained in a simple box, to prevent obnoxious forms. Moved across the site to help prevent breaches from more powerful anomalies",
+    "addendums": [
+        {
+            "text": "\"002 is now a fucking egg. Why an egg? Like, why not a potato?\" - Dr. Floeser",
+            "type": "LOG"
+        },
+        {
+            "text": "NACA-002 was let out of its box for an unknown reason by Dr. [REDACTED], and it became a giant 20 ton obsidian pillar, after approximately 23 hours it turned into a small rock and was placed back into its box. Dr. [REDACTED] was fired immediately.",
+            "type": "INCIDENT"
+        },
+        {
+            "text": "\"Me and Dr Backus agreed to test 002 on 004, and it turns out that the effects of 002 are stronger when nearer to it.\" - Dr Pannitti",
+            "type": "LOG"
+        }
+    ]
 }
