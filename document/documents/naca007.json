@@ -1,0 +1,12 @@
+{
+    "nickname": "The Midnight Monacle",
+    "classification": "AA-0",
+    "description": "This monocle allows the wearer to see any thermal signatures. It very well could be biological as well.",
+    "containment": "This is used by the special agents that work together with the police. There is no containment procedure.",
+    "addendums": [
+        {
+            "text": "Special Agent [REDACTED] used the monocle to find a murderer by the name of Jeffery Marlin. It detected heat signatures from Marlin running that an average heat detecting device would not find.",
+            "type": "FIELD USAGE"
+        }
+    ]
+}

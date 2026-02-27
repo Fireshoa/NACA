@@ -4,5 +4,18 @@
     "description": "003 is a human with the ability to create anything. NACA-003 has extreme post traumatic stress disorder from a mistaken creation; in an attempt to create something, he accidentally made NACA-003-A, a dangerous smoke cloud that gets stronger when NACA-003 is feeling strong negative emotions. NACA-003 also yearns to always be in the field of NACA-002, as it dampens his strength and makes him less likely to accidentally make dangerous objects.",
     "containment": "003 likes to be near 002, as to limit his chance of mistakes, so a box is placed above his room to make NACA-003 believe that NACA-002 is always above him. NACA-003’s room is made of stainless steel. The effects of 002 are always present, as they echo for around 24 hours before weakening, and goes away fully after 48",
     "unfinished": true,
-    "addendums": []
+    "addendums": [
+        {
+            "text": "\"003 told me that he likes to read. I'm going to request a shipment of some books for him to read\" - Dr. Hickens",
+            "type": "LOG"
+        },
+        {
+            "text": "10-15 large books, no horror content, no smutty content, to the site for NACA-003\n--Request Approved--",
+            "type": "REQUEST"
+        },
+        {
+            "text": "\"I came to Eli to try and befriend him. He already associates me with Fitch, which is not great. I plan to be a sort of vent for his stress and such. I did manage to befriend him and have a normal human conversation but I'm concerned how stable my friendship actually is. Afterwards he told me about the mistake and the lives it claimed. I did not prompt him to tell me any of this information. He also apologized about freaking out, and confirmed my suspicions of PTSD from repeated failed creations.\" - Dr Hickens",
+            "type": "LOG"
+        }
+    ]
 }
