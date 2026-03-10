@@ -6,19 +6,22 @@
 <body>
     <h1>Find</h1>
     <a href="..">Home</a>
-    <a href="catalog.html" target="_blank" rel="noopener noreferrer">View catalog</a>
+    <a href="catalog">View catalog</a>
     <a href="https://forms.gle/pPGkphbksUP7Dkqq7" target="_blank" rel="noopener noreferrer">Submit fanmade anomaly</a>
     <p>Type the ID of the anomaly file you would like to view.</p>
-    <div class="center">
-        <input id="search" type="text"></input>
+    <div class="center" style="display: flex; flex-direction: column; align-items: center;">
+        <input id="search" type="text">
+        <img src="loading.gif" alt="loading" id="loading" 
+            style="display: none; margin: 10px auto; width: 50px; height: auto;">
     </div>
     <div class="data-wrapper">
         <h2 class="title" id="name"></h2>
         <p class="data" id="author"></p>
-        <p class="data" id="warning"></p>
+        <p class="data" style="color: red" id="warning"></p>
         <p class="data" id="class"></p>
         <p class="data" id="description"></p>
         <p class="data" id="containment"></p>
+        <a class="data" id="attachment" target="_blank" rel="noopener noreferrer"></a>
         <p class="data" id="addendums"></p>
         <script src="loader.js"></script>
     </div>

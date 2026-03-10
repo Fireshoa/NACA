@@ -1,0 +1,12 @@
+{
+    "nickname": "The Infinite Faucet",
+    "classification": "BA-0",
+    "description": "005 is an infinite lightly rusted iron faucet that when attached to a jug of any liquid, will release an infinite amount of that liquid. The liquid's purity is very high, with water being completely drinkable.",
+    "containment": "A simple steel room is usually enough to prevent facility flooding",
+    "addendums": [
+        {
+            "text": "\"A volunteer drank water from it for a day, and they turned out fine. I then tried filling my car with gas from the faucet and it worked perfectly. The consistency is amazing!\" - Dr Lindsay",
+            "type": "LOG"
+        }
+    ]
+}

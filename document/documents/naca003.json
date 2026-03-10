@@ -14,6 +14,10 @@
             "type": "REQUEST"
         },
         {
+            "text": "I have not found a way to add conversations yet without looking like absolute garbage:(",
+            "type": "CONVERSATION"
+        },
+        {
             "text": "\"I came to Eli to try and befriend him. He already associates me with Fitch, which is not great. I plan to be a sort of vent for his stress and such. I did manage to befriend him and have a normal human conversation but I'm concerned how stable my friendship actually is. Afterwards he told me about the mistake and the lives it claimed. I did not prompt him to tell me any of this information. He also apologized about freaking out, and confirmed my suspicions of PTSD from repeated failed creations.\" - Dr Hickens",
             "type": "LOG"
         }

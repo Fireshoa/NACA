@@ -1,7 +1,7 @@
 {
-    "nickname": "Testing",
+    "nickname": "Template",
     "classification": "AA-0",
-    "description": "This document is used to test if new features on the website work. Please ignore it",
+    "description": "This document is used to test if new features on the website work and as a template. Please ignore it.",
     "containment": "containment",
     "old": true,
     "addendums": [

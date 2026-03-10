@@ -1,0 +1,12 @@
+{
+    "nickname": "The Living Tricycle",
+    "classification": "CC-1",
+    "description": "A tricycle that moves on its own. Its intentions are unknown. When tested with NACA-002, it moved slower, and only stopped on contact with 002.",
+    "containment": "A simple metal cage is plenty to stop it from getting out.",
+    "addendums": [
+        {
+            "text": "\"I convinced Dr. Pannitti to let me test 002 on 004, and the experiment showed something useful for him more than me. 004 could still move, while slow, up until direct contact.\" - Dr. Backus",
+            "type": "LOG"
+        }
+    ]
+}

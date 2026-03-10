@@ -7,6 +7,20 @@ h1 {
     line-height: 1.5;
 }
 
+h2 {
+    font-family: "Arial Black", sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 1;
+}
+
+p, a {
+    font-family: "Arial Black", sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 1;
+}
+
 .center {
     display: flex;
     justify-content: center;
@@ -49,3 +63,8 @@ h1 {
     font-family: "Sans Serif";
     font-size: 16px;
 }
+
+p:empty {
+    display: none;
+}
+
