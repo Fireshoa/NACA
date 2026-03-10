@@ -4,6 +4,7 @@
     "description": "This document is used to test if new features on the website work and as a template. Please ignore it.",
     "containment": "containment",
     "old": true,
+    "attachment": "test.txt",
     "addendums": [
         {
             "text": "\"This is an addendum\" - Dr. Person",
